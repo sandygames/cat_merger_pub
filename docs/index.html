@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cat Merge</title>
+  <meta name="description" content="Cat Merge is a free drop-and-merge puzzle for iPhone and iPad. Drop cats, merge matches, don’t hit the line.">
+  <style>
+    :root {
+      --peach: #fde3c4;
+      --apricot: #f5b48a;
+      --ink: #5a331f;
+      --muted: #8a5a40;
+      --btn: #e66b47;
+      --paper: #fffaf3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #ffe6c8 0%, var(--apricot) 100%);
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.4rem 4rem;
+      text-align: center;
+    }
+    .hero {
+      font-size: 4.5rem;
+      line-height: 1;
+      margin: 0 0 0.4rem;
+    }
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: 2.6rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .tag {
+      margin: 0 0 1.6rem;
+      font-size: 1.15rem;
+      color: var(--muted);
+    }
+    .card {
+      background: var(--paper);
+      border-radius: 1.4rem;
+      padding: 1.4rem 1.3rem;
+      text-align: left;
+      box-shadow: 0 10px 30px rgba(90, 51, 31, 0.12);
+    }
+    .card p { margin: 0 0 0.85rem; line-height: 1.55; }
+    .card p:last-child { margin-bottom: 0; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      justify-content: center;
+      margin: 1.6rem 0 0.4rem;
+    }
+    a.btn {
+      display: inline-block;
+      background: var(--btn);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 0.7rem 1.15rem;
+      border-radius: 999px;
+    }
+    a.btn.ghost {
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--ink);
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="hero" aria-hidden="true">🐱</p>
+    <h1>Cat Merge</h1>
+    <p class="tag">Drop · merge · don’t hit the line</p>
+    <div class="card">
+      <p>Cat Merge is a free puzzle for iPhone and iPad. Drop cartoon cats into the well, merge two of the same kind, and chase combos — just don’t let the stack reach the line.</p>
+      <p>No account. Play offline. Optionally join the world leaderboard with a nickname. A small banner supports the game; Remove Ads is a one-time in-app purchase.</p>
+    </div>
+    <div class="actions">
+      <a class="btn" href="mailto:catmerge@googlegroups.com">Email support</a>
+      <a class="btn ghost" href="https://github.com/sandygames/cat_merger_pub/issues">Open an issue</a>
+    </div>
+    <footer>
+      <p>Questions, bugs, and feedback: email <a href="mailto:catmerge@googlegroups.com">catmerge@googlegroups.com</a> or <a href="https://github.com/sandygames/cat_merger_pub/issues">create an issue</a>.</p>
+      <p><a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+  </main>
+</body>
+</html>
